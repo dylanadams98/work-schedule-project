@@ -1,4 +1,3 @@
-
 var options = {
   startHour: 9,
   endHour: 23,
@@ -41,14 +40,14 @@ function generateTimeBlocks() {
   for (hour = options.startHour; hour <= options.endHour; hour++) {
 
     var savedTask = localStorage.getItem(hour) || '';
-    var html = `<div class="row" data-hour="${hour}">
-        <div class="col-sm-16" hour"${hour}"</div>
+    var html = `<div class="row time-block" data-hour="${hour}">
+        <div class="col-sm-16" hour">${hour}</div>
         <div class="row-sm-16 row past">
             <textarea class="col-sm-8 description">${savedTask}</textarea>
         </div>
 
         <div class="row-sm-16 row">
-        <button class="btn btn-primary saveBtn">Save</button>
+        <button class="btn-primary saveBtn">Save</button>
         </div>
         </div>
         

@@ -5,6 +5,10 @@ body {
   background-color: grey;
 }
 
+header {
+  font-size: 20px;
+}
+
 textarea {
   background: transparent;
   border: none;
@@ -33,7 +37,7 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: darkgray;
   color: white;
 }
 
@@ -66,4 +70,15 @@ textarea {
   flex: 0 0 auto;
   width: 500%;
   box-sizing: border-box;
+}
+
+.btn-primary {
+  margin: 20px;
+}
+
+.time-block {
+  display: block;
+  justify-content: center;
+  padding: 5px;
+  margin: 10px;
 }
