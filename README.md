@@ -4,6 +4,8 @@ This project is a tool for work-day scheduling, with dynamically updating timebl
 
 Getting the dynamically updated timeblocks to work was a big challenge but has been helpful in implementing similiar relationships in other projects.
 
+I also had some help on this issue during tutor sessions.
+
 The deployed code is accessible here: https://github.com/dylanadams98/work-schedule-project
 
 The deployed page is accessible here: https://dylanadams98.github.io/work-schedule-project
